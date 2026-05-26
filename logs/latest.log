@@ -1,152 +1,152 @@
-[20:01:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
-[20:01:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
-[20:01:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:01:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[20:01:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[20:15:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
+[20:15:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[20:15:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:15:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[20:15:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - Skript (2.15.2)
-[20:01:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:01:48] [ServerMain/INFO]: Loaded 1470 recipes
-[20:01:48] [ServerMain/INFO]: Loaded 1584 advancements
-[20:01:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:01:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 388.6ms
-[20:01:49] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[20:01:49] [Server thread/INFO]: Loading properties
-[20:01:49] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[20:01:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:01:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:01:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:01:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[20:01:50] [Server thread/INFO]: Default game type: SURVIVAL
-[20:01:50] [Server thread/INFO]: Generating keypair
-[20:01:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:01:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:01:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:01:50] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
-[20:01:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:01:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:01:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:01:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:01:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:01:51] [Server thread/INFO]: Preparing level "world"
-[20:01:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[20:01:51] [Server thread/INFO]: Preparing spawn area: 100%
-[20:01:51] [Server thread/INFO]: Prepared spawn area in 3 ms
-[20:01:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[20:01:51] [Server thread/INFO]: Prepared spawn area in 2 ms
-[20:01:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[20:01:51] [Server thread/INFO]: Prepared spawn area in 1 ms
-[20:01:51] [Server thread/INFO]: Done preparing level "world" (0.925s)
-[20:01:51] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
-[20:01:54] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[20:01:56] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[20:01:57] [Server thread/INFO]: [spark] Starting background profiler...
-[20:01:57] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:01:57] [Server thread/INFO]: Running delayed init tasks
-[20:01:57] [User Authenticator #0/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
-[20:01:58] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1990ms
-[20:01:58] [Server thread/INFO]: [Skript] Loading variables...
-[20:01:58] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[20:01:59] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[20:01:59] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 5 structures in 0.32 seconds
-[20:01:59] [Server thread/INFO]: [Skript] Finished loading.
-[20:01:59] [Server thread/INFO]: Done (22.646s)! For help, type "help"
-[20:02:00] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[20:02:00] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
-[20:02:00] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
-[20:02:00] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[20:02:00] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[20:02:00] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[20:02:01] [Server thread/INFO]: Player joined the game
-[20:02:01] [Server thread/INFO]: Player[/26.58.29.113:62921] logged in with entity id 24 at ([world]14.81914163588813, 154.49433493165807, -369.4074590995242)
-[20:02:02] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[20:02:04] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[20:02:06] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[20:02:09] [User Authenticator #0/INFO]: UUID of player jake is a522940a-8693-3997-810c-b1e38affa666
-[20:02:09] [Server thread/INFO]: jake joined the game
-[20:02:09] [Server thread/INFO]: jake[/26.251.223.4:55398] logged in with entity id 381 at ([world_nether]-174.32960381150497, 97.0, -1505.0940634565952)
-[20:04:09] [Server thread/INFO]: Player issued server command: /tpa jake
-[20:04:09] [User Authenticator #1/INFO]: UUID of player choice_0013 is d2858a22-200d-32eb-8d17-c2f030394a6a
-[20:04:10] [Server thread/INFO]: choice_0013 joined the game
-[20:04:10] [Server thread/INFO]: choice_0013[/26.85.209.203:53847] logged in with entity id 2496 at ([world_nether]-13.100707403913022, 63.0, 48.320547619164905)
-[20:04:12] [Server thread/INFO]: jake issued server command: /tpaccept
-[20:06:11] [Server thread/INFO]: Player issued server command: /tpa choice_0013
-[20:06:12] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
-[20:06:20] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
-[20:06:21] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
-[20:06:22] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
-[20:06:23] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
-[20:06:33] [Server thread/INFO]: jake issued server command: /tpa choice_0013
-[20:06:36] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
-[20:07:06] [Server thread/INFO]: Player issued server command: /tp jake @s
-[20:07:06] [Server thread/INFO]: [Player: Teleported jake to Player]
-[20:07:14] [Server thread/INFO]: Player issued server command: /tp jake @s
-[20:07:14] [Server thread/INFO]: [Player: Teleported jake to Player]
-[20:08:18] [Server thread/INFO]: choice_0013 has made the advancement [Not Today, Thank You]
-[20:09:23] [Server thread/INFO]: Player issued server command: /spark
-[20:09:33] [Server thread/INFO]: Player issued server command: /data get entity choice_0013 Dimension
-[20:09:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Player> ./data get entity choice_0013 Dimension
-[20:09:56] [Server thread/INFO]: Player issued server command: /tps
-[20:10:02] [Server thread/INFO]: Player issued server command: /pimg
-[20:10:10] [Server thread/INFO]: Player issued server command: /ping
-[20:10:15] [Server thread/INFO]: choice_0013 issued server command: /ping
-[20:10:24] [Server thread/INFO]: Player issued server command: /spark ping
-[20:10:30] [Async Chat Thread - #0/INFO]: [Not Secure] <choice_0013> ./spark ping
-[20:11:02] [Async Chat Thread - #0/INFO]: [Not Secure] <choice_0013> ./spark profiler open
-[20:11:07] [Server thread/INFO]: Player issued server command: /spark profiler on
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Starting a new profiler, please wait...
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Profiler is now running! (built-in java)
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡] It will run in the background until it is stopped by an admin.
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡] To stop the profiler and upload the results, run:
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡]   /spark profiler stop
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡] To view the profiler while it's running, run:
-[20:11:07] [Paper Async Task Handler Thread - 1/INFO]: [⚡]   /spark profiler open
-[20:11:32] [Server thread/INFO]: Player issued server command: /spark profiler open
-[20:11:36] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Profiler live viewer:
-[20:11:36] [Paper Async Task Handler Thread - 1/INFO]: https://spark.lucko.me/mp5Iq25K6X
-[20:11:36] [Paper Async Task Handler Thread - 1/INFO]: 
-[20:11:36] [Paper Async Task Handler Thread - 1/INFO]: (NOTE: this link is temporary and will expire after a short period of time. If you need a link to share with other people (e.g. in a bug report), please use /spark profiler stop instead.)
-[20:11:44] [WebSocketConnectReadThread-185/INFO]: [spark] [Viewer - O7Ql0F2n0Wpu2Ij] Client connected: clientId=9740-b8b2, keyhash=134875, desc=Chrome on Windows
-[20:11:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Player> Profile @ 오후08_11 2026. 5. 26. _ spark.html
-[20:13:25] [Server thread/INFO]: Player issued server command: /
-[20:13:26] [Server thread/INFO]: Player issued server command: /stop
-[20:13:26] [Server thread/INFO]: [Player: Stopping the server]
-[20:13:26] [Server thread/INFO]: Stopping server
-[20:13:26] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
-[20:13:26] [Server thread/INFO]: Saving players
-[20:13:26] [Server thread/INFO]: Player lost connection: Server closed
-[20:13:26] [Server thread/INFO]: Player left the game
-[20:13:26] [Server thread/INFO]: jake lost connection: Server closed
-[20:13:26] [Server thread/INFO]: jake left the game
-[20:13:26] [Server thread/INFO]: choice_0013 lost connection: Server closed
-[20:13:26] [Server thread/INFO]: choice_0013 left the game
-[20:13:26] [Server thread/INFO]: Saving worlds
-[20:13:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:13:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:13:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:13:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:13:28] [Server thread/INFO]: [ChunkHolderManager] Saved 5257 block chunks, 4577 entity chunks, 0 poi chunks in world 'world' in 2.02s
-[20:13:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:13:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:13:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Saved 1136 block chunks, 1064 entity chunks, 1 poi chunks in world 'world_nether' in 0.50s
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:13:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:13:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:13:29] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[20:13:29] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[20:13:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:13:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:15:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:15:14] [ServerMain/INFO]: Loaded 1470 recipes
+[20:15:14] [ServerMain/INFO]: Loaded 1584 advancements
+[20:15:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:15:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 945.8ms
+[20:15:15] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:15:15] [Server thread/INFO]: Loading properties
+[20:15:15] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[20:15:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:15:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:15:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:15:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[20:15:18] [Server thread/INFO]: Default game type: SURVIVAL
+[20:15:18] [Server thread/INFO]: Generating keypair
+[20:15:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:15:18] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:15:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:15:18] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
+[20:15:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:15:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:15:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:15:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:15:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:15:18] [Server thread/INFO]: Preparing level "world"
+[20:15:20] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[20:15:20] [Server thread/INFO]: Preparing spawn area: 100%
+[20:15:20] [Server thread/INFO]: Prepared spawn area in 14 ms
+[20:15:20] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:15:20] [Server thread/INFO]: Prepared spawn area in 12 ms
+[20:15:20] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:15:20] [Server thread/INFO]: Preparing spawn area: 100%
+[20:15:20] [Server thread/INFO]: Prepared spawn area in 15 ms
+[20:15:20] [Server thread/INFO]: Done preparing level "world" (1.523s)
+[20:15:20] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
+[20:15:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[20:15:26] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:15:26] [Server thread/INFO]: [spark] Starting background profiler...
+[20:15:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:15:26] [Server thread/INFO]: Running delayed init tasks
+[20:15:26] [User Authenticator #0/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[20:15:28] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 2696ms
+[20:15:28] [Server thread/INFO]: [Skript] Loading variables...
+[20:15:28] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[20:15:29] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[20:15:29] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 5 structures in 0.52 seconds
+[20:15:29] [Server thread/INFO]: [Skript] Finished loading.
+[20:15:29] [Server thread/INFO]: Done (30.362s)! For help, type "help"
+[20:15:29] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[20:15:29] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[20:15:29] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
+[20:15:29] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[20:15:29] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[20:15:29] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[20:15:32] [Server thread/INFO]: Player joined the game
+[20:15:32] [Server thread/INFO]: Player[/26.58.29.113:50527] logged in with entity id 43 at ([world]8.22839835002149, 70.0, -590.1454724400784)
+[20:15:43] [Server thread/INFO]: Player issued server command: /spark tps
+[20:15:46] [Server thread/INFO]: Player issued server command: /tps
+[20:15:54] [User Authenticator #0/INFO]: UUID of player jake is a522940a-8693-3997-810c-b1e38affa666
+[20:15:55] [Server thread/INFO]: jake joined the game
+[20:15:55] [Server thread/INFO]: jake[/26.251.223.4:55610] logged in with entity id 806 at ([world]101.4103037426764, -3.0, -0.8135346668012667)
+[20:16:41] [User Authenticator #0/INFO]: UUID of player choice_0013 is d2858a22-200d-32eb-8d17-c2f030394a6a
+[20:16:41] [Server thread/INFO]: choice_0013 joined the game
+[20:16:41] [Server thread/INFO]: choice_0013[/26.85.209.203:62941] logged in with entity id 2057 at ([world_nether]-27.199346809658298, 70.0, -34.52115204596696)
+[20:16:44] [Server thread/INFO]: Player issued server command: /tps choice_0013
+[20:16:48] [Server thread/INFO]: Player issued server command: /tpa choice_0013
+[20:16:50] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
+[20:17:31] [Server thread/INFO]: Player issued server command: /sethome
+[20:17:32] [Server thread/INFO]: Player issued server command: /home
+[20:18:06] [Server thread/INFO]: Player issued server command: /spark gc
+[20:18:17] [Server thread/INFO]: Player issued server command: /spark profiler on
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Starting a new profiler, please wait...
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Profiler is now running! (built-in java)
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡] It will run in the background until it is stopped by an admin.
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡] To stop the profiler and upload the results, run:
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡]   /spark profiler stop
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡] To view the profiler while it's running, run:
+[20:18:17] [Paper Async Task Handler Thread - 1/INFO]: [⚡]   /spark profiler open
+[20:18:19] [Server thread/INFO]: Player issued server command: /spark profiler open
+[20:18:22] [ForkJoinPool.commonPool-worker-2/INFO]: [⚡] Profiler operation failed unexpectedly. Error: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7f2b22fc[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3e1628c7[Wrapped task = me.lucko.spark.paper.common.sampler.java.JavaSampler$InsertDataTask@3a29abdd]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@9d58b30[Shutting down, pool size = 6, active threads = 1, queued tasks = 2, completed tasks = 2374]
+[20:18:22] [ForkJoinPool.commonPool-worker-2/ERROR]: [spark] Profiler operation failed unexpectedly
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7f2b22fc[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3e1628c7[Wrapped task = me.lucko.spark.paper.common.sampler.java.JavaSampler$InsertDataTask@3a29abdd]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@9d58b30[Shutting down, pool size = 6, active threads = 1, queued tasks = 2, completed tasks = 2374]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705) ~[?:?]
+	at me.lucko.spark.paper.common.sampler.java.JavaSampler.run(JavaSampler.java:137) ~[spark-paper-1.10.152.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:18:24] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Profiler live viewer:
+[20:18:24] [Paper Async Task Handler Thread - 1/INFO]: https://spark.lucko.me/S9nHj8WJMr
+[20:18:24] [Paper Async Task Handler Thread - 1/INFO]: 
+[20:18:24] [Paper Async Task Handler Thread - 1/INFO]: (NOTE: this link is temporary and will expire after a short period of time. If you need a link to share with other people (e.g. in a bug report), please use /spark profiler stop instead.)
+[20:18:27] [Server thread/INFO]: Player issued server command: /spark profiler open
+[20:18:30] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Profiler live viewer:
+[20:18:30] [Paper Async Task Handler Thread - 1/INFO]: https://spark.lucko.me/BFZ9rmQqXv
+[20:18:30] [Paper Async Task Handler Thread - 1/INFO]: 
+[20:18:30] [Paper Async Task Handler Thread - 1/INFO]: (NOTE: this link is temporary and will expire after a short period of time. If you need a link to share with other people (e.g. in a bug report), please use /spark profiler stop instead.)
+[20:18:39] [WebSocketConnectReadThread-144/INFO]: [spark] [Viewer - UVTunMCdU3oUMQx] Client connected: clientId=76fd-30d6, keyhash=134875, desc=Chrome on Windows
+[20:19:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Player> java -Xms4G -Xmx16G -jar paper-1.21.11-132.jar nogui
+[20:19:25] [Server thread/INFO]: Player issued server command: /stop
+[20:19:25] [Server thread/INFO]: [Player: Stopping the server]
+[20:19:25] [Server thread/INFO]: Stopping server
+[20:19:25] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
+[20:19:25] [Server thread/INFO]: Saving players
+[20:19:25] [Server thread/INFO]: Player lost connection: Server closed
+[20:19:25] [Server thread/INFO]: Player left the game
+[20:19:25] [Server thread/INFO]: jake lost connection: Server closed
+[20:19:25] [Server thread/INFO]: jake left the game
+[20:19:25] [Server thread/INFO]: choice_0013 lost connection: Server closed
+[20:19:25] [Server thread/INFO]: choice_0013 left the game
+[20:19:25] [Server thread/INFO]: Saving worlds
+[20:19:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:19:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:19:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:19:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:19:30] [Server thread/INFO]: [ChunkHolderManager] Saved 6953 block chunks, 6953 entity chunks, 0 poi chunks in world 'world' in 4.71s
+[20:19:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:19:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:19:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:19:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:19:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Saved 5197 block chunks, 5197 entity chunks, 0 poi chunks in world 'world_nether' in 2.05s
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:19:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:19:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:19:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:19:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:19:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:19:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:19:32] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:19:32] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:19:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:19:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
