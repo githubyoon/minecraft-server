@@ -1,0 +1,180 @@
+[20:50:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
+[20:50:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[20:50:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:50:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\Skript-2.15.2.jar'...
+[20:50:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Skript-2.15.2.jar' in 1743ms.
+[20:50:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[20:50:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - Skript (2.15.2)
+[20:50:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:50:57] [ServerMain/INFO]: Loaded 1470 recipes
+[20:50:57] [ServerMain/INFO]: Loaded 1584 advancements
+[20:50:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:50:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 435.0ms
+[20:50:58] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:50:58] [Server thread/INFO]: Loading properties
+[20:50:58] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[20:50:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:50:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[20:50:59] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:59] [Server thread/INFO]: Generating keypair
+[20:50:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:50:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:50:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:50:59] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
+[20:50:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:50:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:50:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:50:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:50:59] [Server thread/INFO]: Preparing level "world"
+[20:51:00] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[20:51:00] [Server thread/INFO]: Preparing spawn area: 100%
+[20:51:00] [Server thread/INFO]: Prepared spawn area in 2 ms
+[20:51:00] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:51:00] [Server thread/INFO]: Prepared spawn area in 0 ms
+[20:51:00] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:51:00] [Server thread/INFO]: Prepared spawn area in 1 ms
+[20:51:00] [Server thread/INFO]: Done preparing level "world" (0.971s)
+[20:51:00] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
+[20:51:01] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.
+[20:51:02] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[20:51:04] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:51:04] [Server thread/INFO]: [spark] Starting background profiler...
+[20:51:04] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:51:04] [Server thread/INFO]: Running delayed init tasks
+[20:51:05] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1398ms
+[20:51:05] [Server thread/INFO]: [Skript] Loading variables...
+[20:51:05] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[20:51:05] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[20:51:05] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[20:51:05] [Server thread/INFO]: [Skript] Finished loading.
+[20:51:05] [Server thread/INFO]: Done (19.865s)! For help, type "help"
+[20:51:05] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[20:51:05] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[20:51:05] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
+[20:51:05] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[20:51:05] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[20:51:05] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[20:51:07] [User Authenticator #0/INFO]: UUID of player choice_0013 is d2858a22-200d-32eb-8d17-c2f030394a6a
+[20:51:09] [Server thread/INFO]: choice_0013 (d2858a22-200d-32eb-8d17-c2f030394a6a) lost connection: Disconnected
+[20:51:18] [Server thread/INFO]: Unknown or incomplete command. See below for error
+skreloadall<--[HERE]
+[20:51:25] [Server thread/INFO]: Unknown or incomplete command. See below for error
+skreload-all<--[HERE]
+[20:51:28] [Server thread/INFO]: Unknown or incomplete command. See below for error
+skreloadall<--[HERE]
+[20:51:37] [User Authenticator #0/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[20:51:38] [Server thread/INFO]: Player joined the game
+[20:51:38] [Server thread/INFO]: Player[/26.58.29.113:62783] logged in with entity id 50 at ([world]232.17359297132234, -29.0, -0.1473041935896499)
+[20:51:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Player> skreloadall
+[20:51:47] [User Authenticator #0/INFO]: UUID of player choice_0013 is d2858a22-200d-32eb-8d17-c2f030394a6a
+[20:51:47] [Server thread/INFO]: choice_0013 joined the game
+[20:51:47] [Server thread/INFO]: choice_0013[/26.85.209.203:58984] logged in with entity id 343 at ([world]170.48125163455435, 73.5625, 76.31691708176626)
+[20:52:08] [Server thread/INFO]: choice_0013 issued server command: /pl
+[20:52:12] [Server thread/INFO]: Player issued server command: /skript reload
+[20:52:21] [Server thread/INFO]: Player issued server command: /sk reload all
+[20:52:22] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript] Loaded 5684 aliases in 807ms
+[20:52:22] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[20:52:38] [Server thread/INFO]: Player issued server command: /op choice_0013
+[20:52:38] [Server thread/INFO]: [Player: Made choice_0013 a server operator]
+[20:52:43] [Server thread/INFO]: choice_0013 issued server command: /sk list
+[20:52:46] [Server thread/INFO]: Player lost connection: Disconnected
+[20:52:46] [Server thread/INFO]: Player left the game
+[20:52:51] [Server thread/INFO]: choice_0013 issued server command: /sk show
+[20:52:54] [User Authenticator #1/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[20:52:54] [Server thread/INFO]: Player joined the game
+[20:52:54] [Server thread/INFO]: Player[/26.58.29.113:51472] logged in with entity id 1652 at ([world]255.11658380879544, -24.0, -17.979330121431683)
+[20:53:06] [Server thread/INFO]: Player lost connection: Disconnected
+[20:53:06] [Server thread/INFO]: Player left the game
+[20:53:37] [Server thread/INFO]: choice_0013 issued server command: /sk reload all
+[20:53:37] [ForkJoinPool.commonPool-worker-3/INFO]: [Skript] Loaded 5684 aliases in 376ms
+[20:53:40] [User Authenticator #1/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[20:53:40] [Server thread/INFO]: Player joined the game
+[20:53:40] [Server thread/INFO]: Player[/26.58.29.113:62924] logged in with entity id 1820 at ([world]257.3748976855396, -25.0, -21.75488832547677)
+[20:53:42] [Server thread/INFO]: Player issued server command: /sk reload all
+[20:53:43] [ForkJoinPool.commonPool-worker-3/INFO]: [Skript] Loaded 5684 aliases in 319ms
+[20:53:48] [Server thread/INFO]: choice_0013 issued server command: /skript:tpa Player
+[20:53:48] [Server thread/INFO]: Player issued server command: /tpa choice_0013
+[20:53:53] [Server thread/INFO]: Player issued server command: /tpaccept
+[20:53:55] [Server thread/INFO]: choice_0013 issued server command: /tpdeny
+[20:54:27] [Server thread/INFO]: Player issued server command: /tp choice_0013 180 80 86
+[20:54:27] [Server thread/INFO]: [Player: Teleported choice_0013 to 180.500000, 80.000000, 86.500000]
+[20:54:33] [Server thread/INFO]: choice_0013 issued server command: /deop choice_0013
+[20:54:33] [Server thread/INFO]: [choice_0013: Made choice_0013 no longer a server operator]
+[20:54:44] [User Authenticator #2/INFO]: UUID of player jake is a522940a-8693-3997-810c-b1e38affa666
+[20:54:44] [Server thread/INFO]: jake joined the game
+[20:54:44] [Server thread/INFO]: jake[/26.251.223.4:58220] logged in with entity id 2044 at ([world]-64.59540889776495, -38.160000026226044, -59.49383601021844)
+[20:55:35] [Server thread/INFO]: choice_0013 issued server command: /tpa
+[20:55:40] [Server thread/INFO]: Player issued server command: /deop
+[20:55:47] [Server thread/INFO]: Player lost connection: Disconnected
+[20:55:47] [Server thread/INFO]: Player left the game
+[20:56:41] [Server thread/INFO]: jake lost connection: Disconnected
+[20:56:41] [Server thread/INFO]: jake left the game
+[20:56:48] [User Authenticator #3/INFO]: UUID of player jake is a522940a-8693-3997-810c-b1e38affa666
+[20:56:49] [Server thread/INFO]: jake joined the game
+[20:56:49] [Server thread/INFO]: jake[/26.251.223.4:58241] logged in with entity id 2963 at ([world]-101.30000001192093, -39.83785857897301, -43.664810661415025)
+[20:56:54] [User Authenticator #3/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[20:56:54] [Server thread/INFO]: Player joined the game
+[20:56:54] [Server thread/INFO]: Player[/26.58.29.113:61874] logged in with entity id 3088 at ([world]311.46012132340127, -30.75081292125532, -24.74387793403388)
+[20:57:02] [Server thread/INFO]: Player issued server command: /sk reload all
+[20:57:03] [ForkJoinPool.commonPool-worker-4/INFO]: [Skript] Loaded 5684 aliases in 961ms
+[20:57:10] [Server thread/INFO]: choice_0013 issued server command: /tpa jake
+[20:57:15] [Server thread/INFO]: Player issued server command: /deop @s
+[20:57:17] [Server thread/INFO]: Player issued server command: /deop Player
+[20:57:17] [Server thread/INFO]: [Player: Made Player no longer a server operator]
+[20:57:42] [Server thread/INFO]: choice_0013 issued server command: /tpdeny
+[20:57:58] [Server thread/INFO]: choice_0013 issued server command: /tpa Player
+[20:58:02] [Server thread/INFO]: Player issued server command: /tpa choice_0013
+[20:58:06] [Server thread/INFO]: choice_0013 issued server command: /tpaccetp
+[20:58:08] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
+[20:58:13] [Server thread/INFO]: jake issued server command: /tpa
+[20:58:19] [Server thread/INFO]: jake issued server command: /tpa Player
+[20:58:23] [Server thread/INFO]: Player issued server command: /tpaccept
+[20:58:53] [Server thread/INFO]: Player has made the advancement [Cover Me with Diamonds]
+[20:59:04] [Server thread/INFO]: choice_0013 has made the advancement [Cover Me with Diamonds]
+[20:59:15] [Server thread/INFO]: jake has made the advancement [Cover Me with Diamonds]
+[21:00:07] [Server thread/INFO]: choice_0013 issued server command: /tpdent
+[21:00:09] [Server thread/INFO]: choice_0013 issued server command: /tpdeny
+[21:00:17] [Server thread/INFO]: Player has made the advancement [Ice Bucket Challenge]
+[21:00:46] [Server thread/INFO]: jake has made the advancement [Ice Bucket Challenge]
+[21:02:31] [Server thread/INFO]: jake issued server command: /tpaccept
+[21:02:39] [Server thread/INFO]: choice_0013 issued server command: /tpa Player
+[21:02:42] [Server thread/INFO]: Player issued server command: /tpaccept
+[21:03:43] [Server thread/INFO]: jake issued server command: /tpa choice_0013
+[21:03:45] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
+[21:04:00] [Server thread/INFO]: Player issued server command: /tpa choice_0013
+[21:04:04] [Server thread/INFO]: choice_0013 issued server command: /tpaccept
+[21:04:44] [Server thread/INFO]: choice_0013 has made the advancement [Enchanter]
+[21:05:01] [Server thread/INFO]: jake has made the advancement [Enchanter]
+[21:05:02] [Server thread/INFO]: Player has made the advancement [Enchanter]
+[21:08:25] [Server thread/INFO]: jake has made the advancement [We Need to Go Deeper]
+[21:08:29] [Server thread/INFO]: choice_0013 has made the advancement [We Need to Go Deeper]
+[21:08:41] [Server thread/INFO]: Player has made the advancement [We Need to Go Deeper]
+[21:09:08] [Async Chat Thread - #1/INFO]: [Not Secure] <Player> -+
+[21:10:07] [Server thread/INFO]: jake has made the advancement [Oh Shiny]
+[21:10:44] [Server thread/INFO]: jake has made the advancement [Not Today, Thank You]
+[21:10:55] [Server thread/INFO]: Player lost connection: Disconnected
+[21:10:55] [Server thread/INFO]: Player left the game
+[21:11:08] [Server thread/INFO]: Stopping the server
+[21:11:08] [Server thread/INFO]: Stopping server
+[21:11:08] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
+[21:11:08] [Server thread/INFO]: Saving players
+[21:11:09] [Server thread/INFO]: choice_0013 lost connection: Server closed
+[21:11:09] [Server thread/INFO]: choice_0013 left the game
+[21:11:09] [Server thread/INFO]: jake lost connection: Server closed
+[21:11:09] [Server thread/INFO]: jake left the game
+[21:11:09] [Server thread/INFO]: Saving worlds
+[21:11:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[21:11:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:11:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'

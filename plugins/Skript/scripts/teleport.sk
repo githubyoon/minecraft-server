@@ -1,0 +1,48 @@
+# --- Home System ---
+command /sethome:
+    trigger:
+        set {home::%player's uuid%} to location of player
+        send "&6[Home] &f현재 위치를 집으로 설정했습니다."
+
+command /home:
+    trigger:
+        if {home::%player's uuid%} is set:
+            teleport player to {home::%player's uuid%}
+            send "&6[Home] &f집으로 이동했습니다."
+        else:
+            send "&c[Home] &f설정된 집이 없습니다. /sethome으로 먼저 설정하세요."
+
+# --- TPA System ---
+command /tpa <player>:
+    trigger:
+        if arg-1 is player:
+            send "&c[TPA] &f자기 자신에게 요청을 보낼 수 없습니다."
+            stop
+        set {tpa::request::%arg-1's uuid%} to player
+        send "&e[TPA] &f%arg-1%님에게 이동 요청을 보냈습니다."
+        send "&e[TPA] &f%player%님이 이동 요청을 보냈습니다. &a/tpaccept &f또는 &c/tpdeny" to arg-1
+
+command /tpaccept:
+    trigger:
+        if {tpa::request::%player's uuid%} is set:
+            set {_requester} to {tpa::request::%player's uuid%}
+            if {_requester} is online:
+                teleport {_requester} to player
+                send "&a[TPA] &f요청을 수락하여 %{_requester}%님이 이동해왔습니다."
+                send "&a[TPA] &f%player%님이 요청을 수락했습니다." to {_requester}
+                delete {tpa::request::%player's uuid%}
+            else:
+                send "&c[TPA] &f요청자가 오프라인 상태입니다."
+                delete {tpa::request::%player's uuid%}
+        else:
+            send "&c[TPA] &f받은 요청이 없습니다."
+
+command /tpdeny:
+    trigger:
+        if {tpa::request::%player's uuid%} is set:
+            set {_requester} to {tpa::request::%player's uuid%}
+            send "&c[TPA] &f요청을 거절했습니다."
+            send "&c[TPA] &f%player%님이 이동 요청을 거절했습니다." to {_requester}
+            delete {tpa::request::%player's uuid%}
+        else:
+            send "&c[TPA] &f받은 요청이 없습니다."
