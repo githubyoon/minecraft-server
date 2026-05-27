@@ -5,6 +5,19 @@
       "name": "Player",
       "uniqueId": "a01e3843-e521-3998-958a-f459800e4d11"
     },
+    "time": 1779794438199,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MwvG4FuZ5M"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Player",
+      "uniqueId": "a01e3843-e521-3998-958a-f459800e4d11"
+    },
     "time": 1779794310923,
     "type": "Profiler (live)",
     "data": {
