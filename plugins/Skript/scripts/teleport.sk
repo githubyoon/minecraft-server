@@ -12,6 +12,61 @@ command /home:
         else:
             send "&c[Home] &f설정된 집이 없습니다. /sethome으로 먼저 설정하세요."
 
+# --- 다중 위치 저장 시스템 (Multi-Location System) ---
+
+# 위치 저장 명령어
+command /setlocation [<text>]:
+    aliases: /위치저장, /지정
+    trigger:
+        if arg 1 is not set:
+            send "&b[Location] &f설정할 위치의 이름을 입력해주세요. (예: /setlocation 광산1)" to player
+            stop
+            
+        set {loc::%player's uuid%::%arg 1%} to location of player
+        send "&b[Location] &e%arg 1%&f(으)로 현재 위치를 저장했습니다." to player
+
+# 위치 이동 명령어
+command /location [<text>]:
+    aliases: /이동, /위치이동
+    trigger:
+        if arg 1 is not set:
+            send "&b[Location] &f이동할 위치의 이름을 입력해주세요. (예: /location 광산1)" to player
+            send "&7* 저장된 목록을 보려면 &f/위치목록&7을 입력하세요." to player
+            stop
+            
+        if {loc::%player's uuid%::%arg 1%} is set:
+            teleport player to {loc::%player's uuid%::%arg 1%}
+            send "&b[Location] &e%arg 1%&f(으)로 이동했습니다." to player
+        else:
+            send "&c[Location] &e%arg 1%&c이라는 이름으로 저장된 위치가 없습니다." to player
+
+# 저장된 위치 목록 확인 명령어
+command /위치목록:
+    aliases: /loclist
+    trigger:
+        if {loc::%player's uuid%::*} is not set:
+            send "&c[Location] &f저장된 위치가 하나도 없습니다." to player
+            stop
+            
+        send "&b--- [ 저장된 위치 목록 ] ---" to player
+        loop {loc::%player's uuid%::*}:
+            send "&e• &f%loop-index%" to player
+        send "&b------------------------" to player
+
+# 위치 삭제 명령어
+command /dellocation [<text>]:
+    aliases: /위치삭제
+    trigger:
+        if arg 1 is not set:
+            send "&c[Location] &f삭제할 위치의 이름을 입력해주세요. (예: /위치삭제 광산1)" to player
+            stop
+            
+        if {loc::%player's uuid%::%arg 1%} is set:
+            delete {loc::%player's uuid%::%arg 1%}
+            send "&b[Location] &e%arg 1%&f 위치를 삭제했습니다." to player
+        else:
+            send "&c[Location] &e%arg 1%&c이라는 이름의 위치가 존재하지 않습니다." to player
+
 # --- TPA System ---
 command /tpa <player>:
     trigger:
