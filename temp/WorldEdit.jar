@@ -1,0 +1,10 @@
+{
+  "error": true,
+  "url": "https://modrinth.com/plugin/worldedit/version/WTAFvuRx/download",
+  "statusCode": 404,
+  "statusMessage": "Page not found: /plugin/worldedit/version/WTAFvuRx/download",
+  "message": "Page not found: /plugin/worldedit/version/WTAFvuRx/download",
+  "data": {
+    "path": "/plugin/worldedit/version/WTAFvuRx/download"
+  }
+}
