@@ -1,247 +1,117 @@
-[17:32:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
-[17:32:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
-[17:32:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:32:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[17:32:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[17:59:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
+[17:59:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[17:59:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:59:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[17:59:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Chunky (1.4.40), InvSeePlusPlus (0.31.13), Skript (2.15.2)
-[17:32:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:32:25] [ServerMain/INFO]: Loaded 1470 recipes
-[17:32:25] [ServerMain/INFO]: Loaded 1584 advancements
-[17:32:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:32:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 410.9ms
-[17:32:26] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:32:26] [Server thread/INFO]: Loading properties
-[17:32:26] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[17:32:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:32:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:32:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:32:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[17:32:27] [Server thread/INFO]: Default game type: SURVIVAL
-[17:32:27] [Server thread/INFO]: Generating keypair
-[17:32:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:32:27] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:32:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:32:27] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
-[17:32:27] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.31.13
-[17:32:27] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[17:32:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:32:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:32:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:32:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:32:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:32:27] [Server thread/INFO]: Preparing level "world"
-[17:32:28] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[17:32:28] [Server thread/INFO]: Preparing spawn area: 100%
-[17:32:28] [Server thread/INFO]: Prepared spawn area in 3 ms
-[17:32:28] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:32:28] [Server thread/INFO]: Prepared spawn area in 1 ms
-[17:32:28] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:32:28] [Server thread/INFO]: Prepared spawn area in 0 ms
-[17:32:28] [Server thread/INFO]: Done preparing level "world" (0.668s)
-[17:32:28] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
-[17:32:30] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[17:32:32] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[17:32:32] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.31.13
-[17:32:32] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.11
-[17:32:32] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[17:32:32] [Server thread/INFO]: [spark] Starting background profiler...
-[17:32:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[17:32:32] [Server thread/INFO]: Running delayed init tasks
-[17:32:33] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1151ms
-[17:32:33] [Server thread/INFO]: [Skript] Loading variables...
-[17:32:33] [Server thread/INFO]: [Skript] Loaded 2 variables in 0.0 seconds
-[17:32:33] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[17:32:33] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 5 structures in 0.34 seconds
-[17:32:33] [Server thread/INFO]: [Skript] Finished loading.
-[17:32:33] [Server thread/INFO]: Done (17.954s)! For help, type "help"
-[17:32:33] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[17:32:33] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
-[17:32:33] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
-[17:32:33] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[17:32:33] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[17:32:33] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[17:32:37] [Server thread/INFO]: [Chunky] World changed to world.
-[17:32:45] [Server thread/INFO]: [Chunky] Radius changed to 100.
-[17:32:49] [Server thread/INFO]: [Chunky] A task was already started for this world. To continue running it, type '/chunky continue'. To start a new task, type '/chunky confirm'.
-[17:33:10] [Server thread/INFO]: [Chunky] Task started in world for the square region centered at 0, 0 with radius 100.
-[17:33:10] [ForkJoinPool.commonPool-worker-48/INFO]: [Chunky] Task running for world. Processed: 101 chunks (44.89%), ETA: 0:00:00, Rate: 583.8 cps, Current: -4, -3
-[17:33:11] [Server thread/INFO]: [Chunky] Task finished for world. Processed: 225 chunks (100.00%), Total time: 0:00:01
-[17:33:18] [Server thread/INFO]: [Chunky] Radius changed to 500.
-[17:33:23] [Server thread/INFO]: [Chunky] Task started in world for the square region centered at 0, 0 with radius 500.
-[17:33:23] [ForkJoinPool.commonPool-worker-22/INFO]: [Chunky] Task running for world. Processed: 265 chunks (6.27%), ETA: 0:00:02, Rate: 1689.1 cps, Current: 5, 22
-[17:33:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1026 chunks (24.28%), ETA: 0:00:06, Rate: 487.3 cps, Current: 32, 4
-[17:33:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1030 chunks (24.38%), ETA: 0:00:12, Rate: 261.2 cps, Current: 32, 8
-[17:33:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1088 chunks (25.75%), ETA: 0:00:14, Rate: 216.6 cps, Current: 32, -3
-[17:33:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1147 chunks (27.15%), ETA: 0:00:16, Rate: 188.4 cps, Current: 5, -31
-[17:33:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1230 chunks (29.11%), ETA: 0:00:17, Rate: 172.3 cps, Current: 10, -23
-[17:33:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1718 chunks (40.66%), ETA: 0:00:12, Rate: 201.8 cps, Current: 23, -5
-[17:33:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1875 chunks (44.38%), ETA: 0:00:11, Rate: 196.6 cps, Current: 28, -18
-[17:33:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2014 chunks (47.67%), ETA: 0:00:11, Rate: 190.7 cps, Current: 18, -28
-[17:33:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2396 chunks (56.71%), ETA: 0:00:08, Rate: 207.7 cps, Current: -32, -25
-[17:33:35] [ForkJoinPool.commonPool-worker-31/INFO]: [Chunky] Task running for world. Processed: 2814 chunks (66.60%), ETA: 0:00:06, Rate: 220.9 cps, Current: -6, -16
-[17:33:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3143 chunks (74.39%), ETA: 0:00:04, Rate: 228.9 cps, Current: -29, 1
-[17:33:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3263 chunks (77.23%), ETA: 0:00:04, Rate: 220.5 cps, Current: -17, 6
-[17:33:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3358 chunks (79.48%), ETA: 0:00:04, Rate: 211.6 cps, Current: -26, 15
-[17:33:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3437 chunks (81.35%), ETA: 0:00:03, Rate: 203.3 cps, Current: -29, 22
-[17:33:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3489 chunks (82.58%), ETA: 0:00:03, Rate: 194.4 cps, Current: -27, 28
-[17:33:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3568 chunks (84.45%), ETA: 0:00:03, Rate: 188.0 cps, Current: -19, 24
-[17:33:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3666 chunks (86.77%), ETA: 0:00:03, Rate: 183.3 cps, Current: -14, 17
-[17:33:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3761 chunks (89.02%), ETA: 0:00:02, Rate: 178.5 cps, Current: -13, 31
-[17:33:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3847 chunks (91.05%), ETA: 0:00:02, Rate: 174.0 cps, Current: -3, 22
-[17:33:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4161 chunks (98.49%), ETA: 0:00:00, Rate: 174.7 cps, Current: -11, 32
-[17:33:47] [Server thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:23
-[17:34:13] [Server thread/INFO]: [Chunky] Radius changed to 1000.
-[17:34:15] [Server thread/INFO]: [Chunky] Task started in world for the square region centered at 0, 0 with radius 1000.
-[17:34:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1034 chunks (6.41%), ETA: 0:54:43, Rate: 4.6 cps, Current: 33, 4
-[17:34:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1117 chunks (6.93%), ETA: 0:04:13, Rate: 59.2 cps, Current: 42, 0
-[17:34:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1187 chunks (7.36%), ETA: 0:03:56, Rate: 63.2 cps, Current: 43, 12
-[17:34:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1333 chunks (8.26%), ETA: 0:03:05, Rate: 79.9 cps, Current: 33, 23
-[17:34:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1425 chunks (8.84%), ETA: 0:02:58, Rate: 82.6 cps, Current: 42, 28
-[17:34:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1539 chunks (9.54%), ETA: 0:02:51, Rate: 85.3 cps, Current: 48, 18
-[17:34:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1640 chunks (10.17%), ETA: 0:02:45, Rate: 87.3 cps, Current: 53, 28
-[17:34:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1709 chunks (10.60%), ETA: 0:02:49, Rate: 84.9 cps, Current: 59, 31
-[17:34:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1789 chunks (11.09%), ETA: 0:02:50, Rate: 84.3 cps, Current: 62, 17
-[17:34:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1881 chunks (11.66%), ETA: 0:02:47, Rate: 85.0 cps, Current: 48, 12
-[17:34:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2016 chunks (12.50%), ETA: 0:02:38, Rate: 89.2 cps, Current: 54, 0
-[17:34:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2071 chunks (12.84%), ETA: 0:02:43, Rate: 86.0 cps, Current: 35, -26
-[17:34:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2126 chunks (13.18%), ETA: 0:02:47, Rate: 83.5 cps, Current: 42, -29
-[17:34:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2212 chunks (13.71%), ETA: 0:02:46, Rate: 83.7 cps, Current: 47, -23
-[17:34:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2360 chunks (14.63%), ETA: 0:02:39, Rate: 86.4 cps, Current: 33, -7
-[17:34:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2503 chunks (15.52%), ETA: 0:02:31, Rate: 90.0 cps, Current: 40, -12
-[17:34:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2618 chunks (16.23%), ETA: 0:02:27, Rate: 91.5 cps, Current: 53, -16
-[17:34:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2758 chunks (17.10%), ETA: 0:02:21, Rate: 94.2 cps, Current: 62, -7
-[17:34:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2848 chunks (17.66%), ETA: 0:02:21, Rate: 93.9 cps, Current: 58, -17
-[17:34:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2989 chunks (18.53%), ETA: 0:02:16, Rate: 96.1 cps, Current: 52, -30
-[17:34:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6148 chunks (38.12%), ETA: 0:01:44, Rate: 95.4 cps, Current: 63, -28
-[17:34:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6242 chunks (38.70%), ETA: 0:01:44, Rate: 94.7 cps, Current: -24, 37
-[17:34:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6323 chunks (39.20%), ETA: 0:01:44, Rate: 94.1 cps, Current: -17, 44
-[17:34:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6401 chunks (39.69%), ETA: 0:01:44, Rate: 93.3 cps, Current: -28, 49
-[17:34:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6458 chunks (40.04%), ETA: 0:01:45, Rate: 91.8 cps, Current: -29, 55
-[17:34:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6537 chunks (40.53%), ETA: 0:01:45, Rate: 91.3 cps, Current: -22, 58
-[17:34:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6649 chunks (41.22%), ETA: 0:01:43, Rate: 92.0 cps, Current: -18, 49
-[17:34:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6730 chunks (41.73%), ETA: 0:01:42, Rate: 91.5 cps, Current: -10, 55
-[17:34:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6811 chunks (42.23%), ETA: 0:01:42, Rate: 91.1 cps, Current: -8, 63
-[17:34:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6899 chunks (42.77%), ETA: 0:01:41, Rate: 91.0 cps, Current: -6, 48
-[17:34:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6963 chunks (43.17%), ETA: 0:01:39, Rate: 91.7 cps, Current: -8, 47
-[17:34:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7109 chunks (44.08%), ETA: 0:01:36, Rate: 93.4 cps, Current: -8, 33
-[17:34:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7255 chunks (44.98%), ETA: 0:01:34, Rate: 94.0 cps, Current: 6, 39
-[17:34:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7309 chunks (45.32%), ETA: 0:01:35, Rate: 92.4 cps, Current: 9, 42
-[17:34:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7398 chunks (45.87%), ETA: 0:01:34, Rate: 92.7 cps, Current: 0, 43
-[17:34:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7480 chunks (46.38%), ETA: 0:01:34, Rate: 91.6 cps, Current: 1, 56
-[17:34:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7560 chunks (46.87%), ETA: 0:01:33, Rate: 91.4 cps, Current: 5, 63
-[17:34:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7666 chunks (47.53%), ETA: 0:01:32, Rate: 92.0 cps, Current: 13, 49
-[17:34:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7734 chunks (47.95%), ETA: 0:01:31, Rate: 92.1 cps, Current: 22, 48
-[17:34:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7823 chunks (48.50%), ETA: 0:01:31, Rate: 90.9 cps, Current: 26, 59
-[17:34:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7915 chunks (49.07%), ETA: 0:01:30, Rate: 90.8 cps, Current: 25, 49
-[17:34:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 7978 chunks (49.46%), ETA: 0:01:28, Rate: 91.7 cps, Current: 25, 41
-[17:34:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8176 chunks (50.69%), ETA: 0:01:23, Rate: 95.1 cps, Current: 29, 33
-[17:34:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8261 chunks (51.22%), ETA: 0:01:23, Rate: 93.9 cps, Current: 47, 32
-[17:35:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8350 chunks (51.77%), ETA: 0:01:24, Rate: 92.1 cps, Current: 44, 44
-[17:35:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8474 chunks (52.54%), ETA: 0:01:22, Rate: 92.4 cps, Current: 33, 52
-[17:35:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8567 chunks (53.12%), ETA: 0:01:23, Rate: 90.8 cps, Current: 39, 57
-[17:35:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8646 chunks (53.61%), ETA: 0:01:22, Rate: 90.2 cps, Current: 40, 53
-[17:35:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8753 chunks (54.27%), ETA: 0:01:22, Rate: 89.5 cps, Current: 48, 57
-[17:35:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8847 chunks (54.85%), ETA: 0:01:21, Rate: 89.1 cps, Current: 56, 62
-[17:35:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 8944 chunks (55.45%), ETA: 0:01:19, Rate: 90.3 cps, Current: 59, 49
-[17:35:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9014 chunks (55.89%), ETA: 0:01:19, Rate: 89.4 cps, Current: 55, 47
-[17:35:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9203 chunks (57.06%), ETA: 0:01:14, Rate: 92.9 cps, Current: 62, 38
-[17:35:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9218 chunks (57.15%), ETA: 0:01:15, Rate: 91.8 cps, Current: 32, -34
-[17:35:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9305 chunks (57.69%), ETA: 0:01:14, Rate: 92.1 cps, Current: 34, -38
-[17:35:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9420 chunks (58.40%), ETA: 0:01:12, Rate: 92.2 cps, Current: 38, -46
-[17:35:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9527 chunks (59.07%), ETA: 0:01:11, Rate: 92.7 cps, Current: 42, -61
-[17:35:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9620 chunks (59.64%), ETA: 0:01:09, Rate: 93.0 cps, Current: 45, -61
-[17:35:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9721 chunks (60.27%), ETA: 0:01:07, Rate: 94.4 cps, Current: 48, -55
-[17:35:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9840 chunks (61.01%), ETA: 0:01:06, Rate: 94.9 cps, Current: 52, -61
-[17:35:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 9942 chunks (61.64%), ETA: 0:01:06, Rate: 93.2 cps, Current: 55, -51
-[17:35:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10060 chunks (62.37%), ETA: 0:01:03, Rate: 95.9 cps, Current: 59, -56
-[17:35:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10178 chunks (63.10%), ETA: 0:01:01, Rate: 96.6 cps, Current: 63, -56
-[17:35:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10210 chunks (63.30%), ETA: 0:01:03, Rate: 93.1 cps, Current: 0, -34
-[17:35:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10292 chunks (63.81%), ETA: 0:01:02, Rate: 93.0 cps, Current: 2, -33
-[17:35:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10395 chunks (64.45%), ETA: 0:01:01, Rate: 93.6 cps, Current: 6, -58
-[17:35:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10519 chunks (65.22%), ETA: 0:00:59, Rate: 94.7 cps, Current: 10, -58
-[17:35:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10631 chunks (65.91%), ETA: 0:00:57, Rate: 95.1 cps, Current: 13, -44
-[17:35:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10754 chunks (66.67%), ETA: 0:00:55, Rate: 96.3 cps, Current: 17, -45
-[17:35:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10874 chunks (67.42%), ETA: 0:00:53, Rate: 98.2 cps, Current: 21, -63
-[17:35:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 10979 chunks (68.07%), ETA: 0:00:53, Rate: 95.8 cps, Current: 24, -39
-[17:35:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11201 chunks (69.45%), ETA: 0:00:50, Rate: 98.5 cps, Current: -32, -33
-[17:35:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11203 chunks (69.46%), ETA: 0:00:52, Rate: 94.1 cps, Current: -32, -35
-[17:35:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11340 chunks (70.31%), ETA: 0:00:50, Rate: 95.4 cps, Current: -28, -49
-[17:35:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11476 chunks (71.15%), ETA: 0:00:47, Rate: 97.5 cps, Current: -24, -44
-[17:35:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11632 chunks (72.12%), ETA: 0:00:45, Rate: 98.8 cps, Current: -19, -53
-[17:35:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11787 chunks (73.08%), ETA: 0:00:43, Rate: 100.7 cps, Current: -14, -55
-[17:35:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 11918 chunks (73.89%), ETA: 0:00:41, Rate: 101.8 cps, Current: -9, -37
-[17:35:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12038 chunks (74.64%), ETA: 0:00:39, Rate: 103.6 cps, Current: -5, -44
-[17:35:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12193 chunks (75.60%), ETA: 0:00:38, Rate: 101.2 cps, Current: -63, -62
-[17:35:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12285 chunks (76.17%), ETA: 0:00:37, Rate: 101.4 cps, Current: -61, -37
-[17:35:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12385 chunks (76.79%), ETA: 0:00:37, Rate: 100.9 cps, Current: -58, -33
-[17:35:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12482 chunks (77.39%), ETA: 0:00:36, Rate: 100.5 cps, Current: -54, -53
-[17:35:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12577 chunks (77.98%), ETA: 0:00:35, Rate: 100.5 cps, Current: -51, -51
-[17:35:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12669 chunks (78.55%), ETA: 0:00:34, Rate: 100.3 cps, Current: -48, -52
-[17:35:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12763 chunks (79.13%), ETA: 0:00:33, Rate: 99.4 cps, Current: -45, -51
-[17:35:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12854 chunks (79.69%), ETA: 0:00:33, Rate: 99.0 cps, Current: -42, -53
-[17:35:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 12948 chunks (80.28%), ETA: 0:00:32, Rate: 98.1 cps, Current: -39, -52
-[17:35:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13154 chunks (81.55%), ETA: 0:00:29, Rate: 99.8 cps, Current: -63, -32
-[17:35:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13158 chunks (81.58%), ETA: 0:00:29, Rate: 100.3 cps, Current: -62, -30
-[17:35:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13264 chunks (82.24%), ETA: 0:00:28, Rate: 101.2 cps, Current: -60, -18
-[17:35:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13375 chunks (82.93%), ETA: 0:00:27, Rate: 101.5 cps, Current: -57, -8
-[17:35:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13489 chunks (83.63%), ETA: 0:00:26, Rate: 101.4 cps, Current: -53, -17
-[17:35:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13580 chunks (84.20%), ETA: 0:00:25, Rate: 100.6 cps, Current: -50, -22
-[17:35:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13678 chunks (84.80%), ETA: 0:00:24, Rate: 100.3 cps, Current: -47, -20
-[17:35:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13794 chunks (85.52%), ETA: 0:00:23, Rate: 100.3 cps, Current: -44, -3
-[17:35:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 13930 chunks (86.37%), ETA: 0:00:21, Rate: 101.1 cps, Current: -40, -8
-[17:35:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14146 chunks (87.71%), ETA: 0:00:19, Rate: 101.9 cps, Current: -63, 0
-[17:35:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14150 chunks (87.73%), ETA: 0:00:20, Rate: 98.5 cps, Current: -63, 2
-[17:36:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14249 chunks (88.34%), ETA: 0:00:18, Rate: 102.2 cps, Current: -60, 8
-[17:36:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14358 chunks (89.02%), ETA: 0:00:17, Rate: 101.3 cps, Current: -57, 20
-[17:36:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14475 chunks (89.75%), ETA: 0:00:16, Rate: 100.6 cps, Current: -53, 10
-[17:36:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14578 chunks (90.38%), ETA: 0:00:15, Rate: 99.0 cps, Current: -50, 16
-[17:36:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14699 chunks (91.13%), ETA: 0:00:14, Rate: 97.7 cps, Current: -46, 9
-[17:36:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14817 chunks (91.87%), ETA: 0:00:13, Rate: 97.4 cps, Current: -43, 28
-[17:36:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 14922 chunks (92.52%), ETA: 0:00:12, Rate: 96.8 cps, Current: -39, 8
-[17:36:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15138 chunks (93.86%), ETA: 0:00:09, Rate: 102.4 cps, Current: -63, 32
-[17:36:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15145 chunks (93.90%), ETA: 0:00:09, Rate: 99.1 cps, Current: -62, 35
-[17:36:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15253 chunks (94.57%), ETA: 0:00:08, Rate: 99.7 cps, Current: -61, 63
-[17:36:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15357 chunks (95.21%), ETA: 0:00:07, Rate: 99.9 cps, Current: -57, 55
-[17:36:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15461 chunks (95.86%), ETA: 0:00:06, Rate: 100.1 cps, Current: -54, 61
-[17:36:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15567 chunks (96.52%), ETA: 0:00:05, Rate: 100.5 cps, Current: -50, 45
-[17:36:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15686 chunks (97.25%), ETA: 0:00:04, Rate: 101.4 cps, Current: -46, 37
-[17:36:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15787 chunks (97.88%), ETA: 0:00:03, Rate: 101.8 cps, Current: -43, 41
-[17:36:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 15887 chunks (98.50%), ETA: 0:00:02, Rate: 102.1 cps, Current: -40, 45
-[17:36:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 16025 chunks (99.36%), ETA: 0:00:01, Rate: 103.6 cps, Current: -35, 36
-[17:36:17] [Server thread/INFO]: [Chunky] Task finished for world. Processed: 16129 chunks (100.00%), Total time: 0:02:01
-[17:36:42] [Server thread/INFO]: Stopping the server
-[17:36:42] [Server thread/INFO]: Stopping server
-[17:36:42] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[17:36:42] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.31.13
-[17:36:42] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
-[17:36:42] [Server thread/INFO]: Saving players
-[17:36:42] [Server thread/INFO]: Saving worlds
-[17:36:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.09s
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:36:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:36:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:36:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:36:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:36:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:36:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:36:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:36:43] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:36:43] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:36:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:36:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[17:59:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:59:48] [ServerMain/INFO]: Loaded 1470 recipes
+[17:59:48] [ServerMain/INFO]: Loaded 1584 advancements
+[17:59:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:59:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 400.3ms
+[17:59:48] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:59:48] [Server thread/INFO]: Loading properties
+[17:59:48] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[17:59:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:59:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:59:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:59:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[17:59:49] [Server thread/INFO]: Default game type: SURVIVAL
+[17:59:49] [Server thread/INFO]: Generating keypair
+[17:59:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:59:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:59:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:59:50] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
+[17:59:50] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.31.13
+[17:59:50] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[17:59:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:59:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:59:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:59:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:59:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:59:50] [Server thread/INFO]: Preparing level "world"
+[17:59:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[17:59:50] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:59:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[17:59:50] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:59:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[17:59:50] [Server thread/INFO]: Prepared spawn area in 0 ms
+[17:59:50] [Server thread/INFO]: Done preparing level "world" (0.552s)
+[17:59:50] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
+[17:59:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[17:59:54] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[17:59:54] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.31.13
+[17:59:54] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.11
+[17:59:54] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[17:59:54] [Server thread/INFO]: [spark] Starting background profiler...
+[17:59:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:59:54] [Server thread/INFO]: Running delayed init tasks
+[17:59:55] [User Authenticator #0/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[17:59:55] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1232ms
+[17:59:55] [Server thread/INFO]: [Skript] Loading variables...
+[17:59:55] [Server thread/INFO]: [Skript] Loaded 2 variables in 0.0 seconds
+[17:59:55] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[17:59:55] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 5 structures in 0.28 seconds
+[17:59:55] [Server thread/INFO]: [Skript] Finished loading.
+[17:59:55] [Server thread/INFO]: Done (17.949s)! For help, type "help"
+[17:59:56] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[17:59:56] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[17:59:56] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
+[17:59:56] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[17:59:56] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[17:59:56] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[17:59:57] [Server thread/INFO]: Player joined the game
+[17:59:57] [Server thread/INFO]: Player[/26.58.29.113:51321] logged in with entity id 42 at ([world]172.19917745674488, 71.0, 86.30000001192093)
+[18:00:00] [Server thread/INFO]: Player issued server command: /invsee
+[18:00:02] [Server thread/INFO]: Player issued server command: /invsee choice_0013
+[18:00:13] [Server thread/INFO]: Player issued server command: /invsee choice_0013
+[18:00:21] [Server thread/INFO]: Player issued server command: /invsee choice_0013
+[18:03:30] [Server thread/INFO]: Player has made the advancement [A Terrible Fortress]
+[18:04:17] [Server thread/INFO]: Player has made the advancement [Not Today, Thank You]
+[18:04:31] [Server thread/INFO]: Player has made the advancement [Into Fire]
+[18:07:15] [Server thread/INFO]: Player issued server command: /home
+[18:08:04] [Server thread/INFO]: Player lost connection: Disconnected
+[18:08:04] [Server thread/INFO]: Player left the game
+[18:23:05] [User Authenticator #1/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:23:05] [Server thread/INFO]: Player joined the game
+[18:23:05] [Server thread/INFO]: Player[/26.58.29.113:61766] logged in with entity id 3785 at ([world]169.3493889846369, 71.5875, 81.49640191538693)
+[18:23:17] [Server thread/INFO]: Player lost connection: Disconnected
+[18:23:17] [Server thread/INFO]: Player left the game
+[18:23:19] [Server thread/INFO]: Unknown or incomplete command. See below for error
+sto<--[HERE]
+[18:23:21] [Server thread/INFO]: Stopping the server
+[18:23:21] [Server thread/INFO]: Stopping server
+[18:23:21] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[18:23:21] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.31.13
+[18:23:21] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
+[18:23:21] [Server thread/INFO]: Saving players
+[18:23:21] [Server thread/INFO]: Saving worlds
+[18:23:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:23:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:23:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:23:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Saved 1203 block chunks, 1203 entity chunks, 0 poi chunks in world 'world' in 0.83s
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:23:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:23:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:23:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:23:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:23:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:23:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:23:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:23:22] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:23:22] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:23:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:23:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

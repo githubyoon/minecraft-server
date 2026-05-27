@@ -22,3 +22,33 @@ Spectator Name: Player
 Taken         : [ENDER_PEARL x 1]
 Given         : []
 Target        : choice_0013
+[2026-05-27 18:00:16] [정보]:
+Spectator UUID: a01e3843-e521-3998-958a-f459800e4d11
+Spectator Name: Player
+Taken         : [FLINT_AND_STEEL & UNSPECIFIC_META:{meta-type=UNSPECIFIC, Damage=1} x 1]
+Given         : []
+Target        : choice_0013
+[2026-05-27 18:00:16] [정보]:
+Spectator UUID: a01e3843-e521-3998-958a-f459800e4d11
+Spectator Name: Player
+Taken         : [FLINT_AND_STEEL & UNSPECIFIC_META:{meta-type=UNSPECIFIC, Damage=1} x 1]
+Given         : []
+Target        : choice_0013
+[2026-05-27 18:00:22] [정보]:
+Spectator UUID: a01e3843-e521-3998-958a-f459800e4d11
+Spectator Name: Player
+Taken         : []
+Given         : [FLINT_AND_STEEL & UNSPECIFIC_META:{meta-type=UNSPECIFIC, Damage=2} x 1]
+Target        : choice_0013
+[2026-05-27 18:00:22] [정보]:
+Spectator UUID: a01e3843-e521-3998-958a-f459800e4d11
+Spectator Name: Player
+Taken         : []
+Given         : [FLINT_AND_STEEL & UNSPECIFIC_META:{meta-type=UNSPECIFIC, Damage=2} x 1]
+Target        : choice_0013
+[2026-05-27 18:00:22] [정보]:
+Spectator UUID: a01e3843-e521-3998-958a-f459800e4d11
+Spectator Name: Player
+Taken         : []
+Given         : [FLINT_AND_STEEL & UNSPECIFIC_META:{meta-type=UNSPECIFIC, Damage=2} x 1]
+Target        : choice_0013
