@@ -1,196 +1,123 @@
-[19:35:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
-[19:35:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
-[19:35:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:35:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[19:35:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[07:57:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
+[07:57:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[07:57:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:57:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[07:57:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Chunky (1.4.40), InvSeePlusPlus (0.31.13), Skript (2.15.2)
-[19:35:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:35:20] [ServerMain/INFO]: Loaded 1470 recipes
-[19:35:20] [ServerMain/INFO]: Loaded 1584 advancements
-[19:35:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[19:35:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 425.0ms
-[19:35:21] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[19:35:21] [Server thread/INFO]: Loading properties
-[19:35:21] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[19:35:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:35:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:35:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:35:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[19:35:22] [Server thread/INFO]: Default game type: SURVIVAL
-[19:35:22] [Server thread/INFO]: Generating keypair
-[19:35:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:35:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:35:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:35:22] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
-[19:35:22] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.31.13
-[19:35:22] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[19:35:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:35:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:35:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:35:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:35:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:35:22] [Server thread/INFO]: Preparing level "world"
-[19:35:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[19:35:23] [Server thread/INFO]: Preparing spawn area: 100%
-[19:35:23] [Server thread/INFO]: Prepared spawn area in 1 ms
-[19:35:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[19:35:23] [Server thread/INFO]: Preparing spawn area: 100%
-[19:35:23] [Server thread/INFO]: Prepared spawn area in 1 ms
-[19:35:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[19:35:23] [Server thread/INFO]: Prepared spawn area in 1 ms
-[19:35:23] [Server thread/INFO]: Done preparing level "world" (0.574s)
-[19:35:23] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
-[19:35:24] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[19:35:25] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[19:35:25] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.31.13
-[19:35:25] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.11
-[19:35:26] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[19:35:26] [Server thread/INFO]: [spark] Starting background profiler...
-[19:35:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[19:35:26] [Server thread/INFO]: Running delayed init tasks
-[19:35:26] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1120ms
-[19:35:27] [Server thread/INFO]: [Skript] Loading variables...
-[19:35:27] [Server thread/INFO]: [Skript] Loaded 4 variables in 0.0 seconds
-[19:35:27] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[19:35:27] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 9 structures in 0.48 seconds
-[19:35:27] [Server thread/INFO]: [Skript] Finished loading.
-[19:35:27] [Server thread/INFO]: Done (19.992s)! For help, type "help"
-[19:35:28] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[19:35:28] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
-[19:35:28] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
-[19:35:28] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[19:35:28] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[19:35:28] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[19:35:28] [User Authenticator #0/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
-[19:35:31] [Server thread/INFO]: Player joined the game
-[19:35:31] [Server thread/INFO]: Player[/127.0.0.1:57874] logged in with entity id 1 at ([world_the_end]168.5796367563966, 1.0, -1.411568813081688)
-[19:38:05] [Async Chat Thread - #1/INFO]: [Not Secure] <Player> 202
-[19:42:05] [Server thread/INFO]: Player issued server command: /setlocation temp
-[19:42:13] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[19:42:25] [Server thread/INFO]: Player issued server command: /이동 temp
-[19:50:48] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[19:50:59] [Server thread/INFO]: Player issued server command: /이동 temp
-[19:51:01] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[19:51:12] [Server thread/INFO]: Player issued server command: /setlocation temp
-[19:51:15] [Server thread/INFO]: Player issued server command: /이동 temp
-[19:51:16] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[19:51:29] [Server thread/INFO]: Player issued server command: /이동 temp
-[19:51:50] [Server thread/INFO]: Player issued server command: /이동 temp
-[19:55:29] [Server thread/INFO]: Player issued server command: /location 엔드팜
-[19:55:33] [Server thread/INFO]: Player issued server command: /setlocation 엔드팜
-[19:56:33] [Server thread/INFO]: Player issued server command: /location 임시거처
-[19:57:51] [Server thread/INFO]: Player issued server command: /이동 엔드팜
-[19:58:32] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[19:58:32] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[19:58:33] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[19:58:34] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[19:59:15] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[19:59:16] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[19:59:23] [Server thread/INFO]: Player issued server command: /give @s minecraft:diamond_chestplate
-[19:59:23] [Server thread/INFO]: [Player: Gave 1 [Diamond Chestplate] to Player]
-[19:59:26] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[19:59:28] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[20:00:32] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[20:00:35] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[20:00:39] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[20:00:40] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[20:00:45] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[20:00:46] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[20:04:50] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[20:04:51] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[20:05:24] [Server thread/INFO]: Player issued server command: /save-on
-[20:05:26] [Server thread/INFO]: Player issued server command: /save-all
-[20:05:26] [Server thread/INFO]: [Player: Saved the game]
-[20:05:34] [Server thread/INFO]: Player issued server command: /이동 임시기지
-[20:05:36] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[20:06:19] [Server thread/INFO]: Player issued server command: /이동 엔드팜
-[20:06:25] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[20:06:26] [Server thread/INFO]: [Player: Set own game mode to Creative Mode]
-[20:06:51] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
-[20:06:56] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
-[20:09:00] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:09:00] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:09:18] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[20:09:23] [Server thread/INFO]: Player issued server command: /이동 엔드팜
-[20:13:45] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[20:15:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Player> -127 -45 -571\
-[20:16:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Player> -127 -45 -571
-[20:18:25] [Server thread/INFO]: Player issued server command: /tp -127 -45 -571
-[20:18:25] [Server thread/INFO]: [Player: Teleported Player to -126.500000, -45.000000, -570.500000]
-[20:19:50] [Server thread/INFO]: Player fell from a high place
-[20:19:54] [Server thread/INFO]: Player issued server command: /tp -127 -45 -571
-[20:19:54] [Server thread/INFO]: [Player: Teleported Player to -126.500000, -45.000000, -570.500000]
-[20:22:42] [Server thread/INFO]: Player issued server command: /tp -127 -45 -571
-[20:22:42] [Server thread/INFO]: [Player: Teleported Player to -126.500000, -45.000000, -570.500000]
-[20:22:44] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[20:22:50] [Server thread/INFO]: Player issued server command: /save-all
-[20:22:50] [Server thread/INFO]: [Player: Saved the game]
-[20:23:04] [Server thread/INFO]: Player issued server command: /이동 엔드팜
-[20:23:20] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:23:20] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:24:49] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:24:49] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:27:09] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:27:09] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:27:56] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:27:56] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:30:10] [Server thread/INFO]: Player issued server command: /give @p diamond_axe[enchantments={"sharpness":5}]
-[20:30:10] [Server thread/INFO]: [Player: Gave 1 [Diamond Axe] to Player]
-[20:30:47] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[20:30:55] [Server thread/INFO]: Player issued server command: /이동 엔드팜
-[20:31:19] [Server thread/INFO]: Player issued server command: /give @p diamond_axe[enchantments={"sharpness":5}]
-[20:31:19] [Server thread/INFO]: [Player: Gave 1 [Diamond Axe] to Player]
-[20:31:22] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:31:22] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:32:05] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:32:05] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:32:32] [Server thread/INFO]: Player issued server command: /이동 임시거처
-[20:32:48] [Server thread/INFO]: Player issued server command: /give @s minecraft:lapis_ore 1
-[20:32:48] [Server thread/INFO]: [Player: Gave 1 [Lapis Lazuli Ore] to Player]
-[20:32:53] [Server thread/INFO]: Player issued server command: /give @s minecraft:lapis_ore 29
-[20:32:53] [Server thread/INFO]: [Player: Gave 29 [Lapis Lazuli Ore] to Player]
-[20:33:36] [Server thread/INFO]: Player issued server command: /이동 엔드팜
-[20:34:19] [Server thread/INFO]: Player issued server command: /give @s minecraft:lapis_ore 29
-[20:34:19] [Server thread/INFO]: [Player: Gave 29 [Lapis Lazuli Ore] to Player]
-[20:34:24] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
-[20:34:24] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
-[20:50:06] [Server thread/INFO]: Player lost connection: Disconnected
-[20:50:06] [Server thread/INFO]: Player left the game
-[20:50:12] [Server thread/INFO]: Unknown or incomplete command. See below for error
-sto[<--[HERE]
-[20:50:14] [Server thread/INFO]: Stopping the server
-[20:50:14] [Server thread/INFO]: Stopping server
-[20:50:14] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[20:50:14] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.31.13
-[20:50:14] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
-[20:50:14] [Server thread/INFO]: Saving players
-[20:50:15] [Server thread/INFO]: Saving worlds
-[20:50:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:50:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:50:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:50:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:50:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:50:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:50:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:50:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:50:15] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[20:50:15] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[20:50:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:50:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:57:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:57:14] [ServerMain/INFO]: Loaded 1470 recipes
+[07:57:14] [ServerMain/INFO]: Loaded 1584 advancements
+[07:57:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:57:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 344.1ms
+[07:57:15] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[07:57:15] [Server thread/INFO]: Loading properties
+[07:57:15] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[07:57:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:57:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:57:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:57:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[07:57:16] [Server thread/INFO]: Default game type: SURVIVAL
+[07:57:16] [Server thread/INFO]: Generating keypair
+[07:57:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:57:16] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[07:57:16] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[07:57:16] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
+[07:57:16] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.31.13
+[07:57:16] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[07:57:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:57:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:57:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:57:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:57:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:57:16] [Server thread/INFO]: Preparing level "world"
+[07:57:17] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[07:57:17] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:57:17] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[07:57:17] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:57:17] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[07:57:17] [Server thread/INFO]: Preparing spawn area: 100%
+[07:57:17] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:57:17] [Server thread/INFO]: Done preparing level "world" (0.696s)
+[07:57:17] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
+[07:57:18] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[07:57:19] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[07:57:19] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.31.13
+[07:57:19] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.11
+[07:57:20] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[07:57:20] [Server thread/INFO]: [spark] Starting background profiler...
+[07:57:20] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[07:57:20] [Server thread/INFO]: Running delayed init tasks
+[07:57:20] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 776ms
+[07:57:20] [Server thread/INFO]: [Skript] Loading variables...
+[07:57:20] [Server thread/INFO]: [Skript] Loaded 6 variables in 0.0 seconds
+[07:57:20] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[07:57:20] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 9 structures in 0.27 seconds
+[07:57:20] [Server thread/INFO]: [Skript] Finished loading.
+[07:57:20] [Server thread/INFO]: Done (17.150s)! For help, type "help"
+[07:57:21] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[07:57:21] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[07:57:21] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
+[07:57:21] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[07:57:21] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[07:57:21] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[07:57:24] [User Authenticator #0/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[07:57:26] [Server thread/INFO]: Player joined the game
+[07:57:27] [Server thread/INFO]: Player[/127.0.0.1:57374] logged in with entity id 130 at ([world_the_end]234.69353556846332, 2.0, -1.4820838712045847)
+[07:58:17] [Server thread/INFO]: Player issued server command: /이동 임시거처
+[07:59:01] [Server thread/INFO]: Player issued server command: /이동 temp
+[07:59:26] [Server thread/INFO]: Player issued server command: /이동 엔드
+[08:02:03] [Server thread/INFO]: Player has made the advancement [Remote Getaway]
+[08:04:29] [Server thread/INFO]: Player has made the advancement [The City at the End of the Game]
+[08:05:40] [Server thread/INFO]: Player has made the advancement [Suit Up]
+[08:09:18] [Server thread/INFO]: Player issued server command: /difficulty peaceful
+[08:09:18] [Server thread/INFO]: [Player: The difficulty has been set to Peaceful]
+[08:11:56] [Server thread/INFO]: Player has reached the goal [Sky's the Limit]
+[08:16:38] [Server thread/INFO]: [Player: Set own game mode to Spectator Mode]
+[08:16:41] [Server thread/INFO]: [Player: Set own game mode to Survival Mode]
+[08:31:45] [Server thread/INFO]: Player issued server command: /이동 엔드팜
+[08:32:09] [Server thread/INFO]: Player issued server command: /give @s minecraft:diamond_spear
+[08:32:09] [Server thread/INFO]: [Player: Gave 1 [Diamond Spear] to Player]
+[08:32:22] [Server thread/INFO]: Player issued server command: /이동 임시거처
+[08:32:27] [Server thread/INFO]: Player issued server command: /이동 엔드팜
+[08:33:24] [Server thread/INFO]: Player issued server command: /give @s minecraft:diamond_spear
+[08:33:24] [Server thread/INFO]: [Player: Gave 1 [Diamond Spear] to Player]
+[08:33:29] [Server thread/INFO]: Player issued server command: /xp add @s 50 levels
+[08:33:29] [Server thread/INFO]: [Player: Gave 50 experience levels to Player]
+[08:34:25] [Server thread/INFO]: Player lost connection: Disconnected
+[08:34:25] [Server thread/INFO]: Player left the game
+[08:34:28] [Server thread/INFO]: Stopping the server
+[08:34:28] [Server thread/INFO]: Stopping server
+[08:34:28] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[08:34:28] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.31.13
+[08:34:28] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
+[08:34:28] [Server thread/INFO]: Saving players
+[08:34:28] [Server thread/INFO]: Saving worlds
+[08:34:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[08:34:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[08:34:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Saved 4761 block chunks, 4761 entity chunks, 0 poi chunks in world 'world_the_end' in 0.52s
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[08:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[08:34:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:34:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:34:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:34:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:34:29] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[08:34:29] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[08:34:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[08:34:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
