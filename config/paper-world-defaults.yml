@@ -263,7 +263,7 @@ fixes:
   falling-block-height-nerf: disabled
   fix-items-merging-through-walls: false
   prevent-tnt-from-moving-in-water: false
-  split-overstacked-loot: true
+  split-overstacked-loot: false
   tnt-entity-height-nerf: disabled
 hopper:
   cooldown-when-full: true
@@ -316,5 +316,8 @@ tick-rates:
       secondarypoisensor: 40
   wet-farmland: 1
 unsupported-settings:
+  allow-headless-pistons: true
+  allow-permanent-block-break-exploits: true
+  allow-piston-duplication: true
   disable-world-ticking-when-empty: false
   fix-invulnerable-end-crystal-exploit: true
