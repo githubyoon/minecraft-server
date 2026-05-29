@@ -40,7 +40,7 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true
     merge-radius:
-      exp: -1.0
+      exp: 6.0
       item: 0.5
     ticks-per:
       hopper-transfer: 8
@@ -147,8 +147,8 @@ world-settings:
     unload-frozen-chunks: false
     max-tnt-per-tick: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 10
+      entity: 20
     verbose: false
 advancements:
   disable-saving: false
